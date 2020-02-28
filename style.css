@@ -12,3 +12,7 @@
     background: beige;
 }
 
+.hover {
+    border:2px solid black;
+    background: red;
+}

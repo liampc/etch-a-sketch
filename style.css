@@ -1,6 +1,6 @@
 #container {
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 90vh;
     background: blue;
     display: grid;
     grid-template-rows: repeat(16, 1fr);
@@ -10,6 +10,5 @@
 .divBox {
     border:2px solid black;
     background: beige;
-    
 }
 

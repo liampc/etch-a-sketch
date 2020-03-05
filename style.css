@@ -3,8 +3,8 @@
     height: 90vh;
     background: blue;
     display: grid;
-    grid-template-rows: repeat(16, 1fr);
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows:;
+    grid-template-columns:;
 }
 
 .divBox {

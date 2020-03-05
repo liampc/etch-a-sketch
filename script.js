@@ -11,13 +11,13 @@ function addDiv(side){
         let box = document.createElement('div');
         box.classList.add('divBox');
         divCont.appendChild(box);
-        box.addEventListener('mouseenter', event => {
-            box.style.background = "red";
-        })
+        box.addEventListener('mouseenter', hover);
       }
 }
 
-
+function hover(){
+    this.style.background = "blue";
+}
 
 
 let resetBtn = document.querySelector('button');

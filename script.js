@@ -11,23 +11,22 @@ function addDiv(side){
         let box = document.createElement('div');
         box.classList.add('divBox');
         divCont.appendChild(box);
-        box.addEventListener('mouseenter', addHover);
-    }
+        box.addEventListener('mouseenter', event => {
+            box.style.background = "red";
+        })
+      }
 }
 
 
-function addHover(){
-    let boxes = document.getElementsByClassName('divBox');
-    boxes.style.background = "red";
-}
 
 
 let resetBtn = document.querySelector('button');
+
 resetBtn.addEventListener('click', event => {
     let grid = prompt("How many boxes per side do you want?");
     let boxes = document.getElementsByClassName('divBox');
         while(boxes.length > 0){
-            boxes[0].parentNode.removeChild(boxes[0]);
+            boxes[0].parentNode.removeChild(boxes[0]); 
         }
     addDiv(grid);
 });

@@ -16,7 +16,8 @@ function addDiv(side){
 }
 
 function hover(){
-    this.style.background = "blue";
+    this.style.background = "black";
+    this.style.border = "1px solid white"
 }
 
 
@@ -24,10 +25,14 @@ let resetBtn = document.querySelector('button');
 
 resetBtn.addEventListener('click', event => {
     let grid = prompt("How many boxes per side do you want?");
-    let boxes = document.getElementsByClassName('divBox');
+    if (grid == "" || grid == null){
+        return "cancelt"
+    }else{
+        let boxes = document.getElementsByClassName('divBox');
         while(boxes.length > 0){
             boxes[0].parentNode.removeChild(boxes[0]); 
         }
-    addDiv(grid);
+        addDiv(grid);
+    }     
 });
 

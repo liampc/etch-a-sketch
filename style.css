@@ -1,17 +1,32 @@
 #container {
-    width: 90vw;
-    height: 90vh;
+    width: 95vw;
+    height: 80vh;
     background: blue;
     display: grid;
    
 }
 
 .divBox {
-    border:2px solid black;
-    background: beige;
+    border: 1px solid black;
+    background: white;
 }
 
 .hover {
-    border:2px solid black;
+    border:1px solid white;
     background: red;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Black Ops One', 'Roboto';
+    text-align: center;
+}
+
+button {
+    font-family: 'Black Ops One', 'Roboto';
+}
+

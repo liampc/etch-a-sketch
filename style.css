@@ -3,6 +3,7 @@
     height: 80vh;
     background: blue;
     display: grid;
+    margin: 0 auto;
    
 }
 
@@ -28,5 +29,8 @@ h1 {
 
 button {
     font-family: 'Black Ops One', 'Roboto';
+    font-size: larger;
+    width: 95vw;
+    margin: 0 auto;
 }
 

@@ -1,4 +1,4 @@
-#Etch-a-sketch
+# Etch-a-sketch
 
 ## Project: The Odin Project, Web dev 101
 
